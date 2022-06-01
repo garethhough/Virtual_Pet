@@ -13,11 +13,6 @@ class Dog extends Pet {
       this.hygiene -= 10;
       this.energy -= 10;
       console.log(`${myPet.name} Loves going on walks! ${myPet.name} is now getting sleepy`);
-     /* console.log(",-.___,-.")
-      console.log(`\_/_ _\_/`)
-      console.log("  )O_O(")
-      console.log(" { (_) }")
-      console.log("  `-^-' ") */
   }
 
   playTug(){
