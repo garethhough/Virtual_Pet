@@ -92,8 +92,8 @@ try {
         myPet.scratchPost();
         break;
         // dog
-      case "walks":
-        myPet.walks();
+      case "walk":
+        myPet.walk();
         break;
       case "playFetch":
         myPet.playFetch();

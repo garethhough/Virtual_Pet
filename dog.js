@@ -5,18 +5,19 @@ class Dog extends Pet {
       super(name)
   }
 
-  walks(){
+  walk(){
       this.hunger -= 5;
       this.thirst -= 5;
       this.health += 5;
       this.happiness += 10;
-      this.hygiene -= 5;
+      this.hygiene -= 10;
       this.energy -= 10;
-      console.log(",-.___,-.")
+      console.log(`${myPet.name} Loves going on walks! ${myPet.name} is now getting sleepy`);
+     /* console.log(",-.___,-.")
       console.log(`\_/_ _\_/`)
       console.log("  )O_O(")
       console.log(" { (_) }")
-      console.log("  `-^-' ")
+      console.log("  `-^-' ") */
   }
 
   playTug(){
@@ -26,7 +27,7 @@ class Dog extends Pet {
       this.happiness += 10;
       this.hygiene -= 5;
       this.energy -= 10;
-      console.log(`${} Loves playing tug!`);
+      console.log(`${myPet.name} Loves playing tug! ${myPet.name} is now getting sleepy`);
   }
 
   playFetch(){
@@ -36,6 +37,7 @@ class Dog extends Pet {
       this.happiness += 10;
       this.hygiene -= 5;
       this.energy -= 10;
+      console.log(`${myPet.name} Loves playing fetch! ${myPet.name} is now getting sleepy`);
   }
 }
 

@@ -94,8 +94,8 @@ dogActionList = [
 dragonActionList = [
   {
     key: "a",
-    name: "a. fly",
-    value: "fly",
+    name: "a. fight",
+    value: "fight",
   },
   {
     key: "b",
